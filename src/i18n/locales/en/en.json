@@ -1,0 +1,13 @@
+{
+  "translation": {
+   "header" :{
+      "contact": "Contatc",
+      "habilities": "habilities",
+      "projects": "Projects",
+      "whoAmI": "Who Am I"
+    },
+    "footer": {
+      "copyright": "© {{year}} Felipe Santos"
+    }
+  }
+}
