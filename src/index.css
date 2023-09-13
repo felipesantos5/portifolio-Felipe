@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-container {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-container.dark {
+  transform: rotate(180deg);
+}
+
+.icon.light {
+  opacity: 1;
+}
+
+.icon.dark {
+  opacity: 0;
+}
