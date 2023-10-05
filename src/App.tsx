@@ -1,14 +1,17 @@
 import { Outlet } from "react-router-dom";
 import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header/header";
+import { DarkModeProvider } from "./contexts/DarkModeContext";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
+    <DarkModeProvider>
+      <div className="flex flex-col h-screen">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
+    </DarkModeProvider>
   );
 }
 
