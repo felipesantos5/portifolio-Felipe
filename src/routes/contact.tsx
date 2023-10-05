@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { BiLogoGithub, BiLogoLinkedin } from "react-icons/Bi";
+import { BiLogoGithub, BiLogoLinkedin } from "react-icons/bi";
 
 export const Contact = () => {
   const { t } = useTranslation();
