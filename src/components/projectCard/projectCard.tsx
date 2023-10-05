@@ -17,7 +17,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
   const { t } = useTranslation();
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const modalRef = useRef(null);
+  const modalRef = useRef<HTMLDivElement | null>(null);
 
   function toggleModal() {
     setIsModalOpen(!isModalOpen);
