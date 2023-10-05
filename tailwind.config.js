@@ -8,10 +8,8 @@ export default {
       xl: { max: "1279px" },
       lg: { max: "1000px" },
       md: { max: "750px" },
-      sm: { max: "600px" },
-    },
-    minHeight: {
-      "80vh": "83.1vh",
+      sm: { max: "450px" },
+      xsm: { max: "350px" },
     },
     extend: {
       maxWidth: {
