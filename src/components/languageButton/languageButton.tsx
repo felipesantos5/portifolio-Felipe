@@ -9,10 +9,9 @@ function LanguageButton() {
   } = useTranslation();
 
   useEffect(() => {
-    // Recupera a preferência de idioma do localStorage quando o componente é montado
     const storedLanguage = localStorage.getItem("preferredLanguage");
     if (storedLanguage) {
-      changeLanguage(storedLanguage); // Atualize o idioma do i18n com base no localStorage
+      changeLanguage(storedLanguage);
     }
   }, [changeLanguage]);
 
