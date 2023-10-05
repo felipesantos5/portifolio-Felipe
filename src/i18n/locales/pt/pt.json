@@ -4,10 +4,54 @@
       "contact": "Contato",
       "habilities": "Habilidades",
       "projects": "Projetos",
-      "whoAmI": "Quem sou Eu"
+      "whoAmI": "Sobre mim"
     },
-    "footer": {
-      "copyright": "© {{year}} Felipe Santos"
+    "projects": {
+      "button": "Ver Detalhes",
+      "Web-Notices": {
+        "textDescription": "O aplicativo 'Web-Notices' é uma plataforma que fornece notícias diárias de todo o mundo. Desenvolvido utilizando React, TypeScript e estilizado com Tailwind CSS, o aplicativo oferece aos usuários acesso rápido e fácil às últimas notícias e eventos globais. Com uma interface intuitiva e responsiva, os leitores podem explorar uma variedade de tópicos e se manter atualizados com as informações mais recentes em tempo real."
+      },
+      "To-do-List": {
+        "textDescription": "O projeto 'To-Do List' é uma aplicação da web que simplifica a organização diária das tarefas das pessoas. Desenvolvido com tecnologias, como React e Styled Components, este aplicativo oferece uma interface intuitiva e amigável para criar, gerenciar e acompanhar suas tarefas diárias. O 'To-Do List' é uma ferramenta versátil para manter você produtivo e organizado. Além disso, sua aparência elegante e responsiva torna a experiência do usuário agradável em qualquer dispositivo."
+      },
+      "Crypto-World": {
+        "textDescription": "O 'Crypto-World' é uma plataforma web que ultiliza como tecnologias , React, TypeScript e Tailwind CSS, que fornece dados detalhados sobre criptomoedas em tempo real. Com ele, os usuários podem monitorar o preço atual, variações nas últimas 24 horas e outras informações cruciais de uma ampla gama de moedas digitais. Essa aplicação é uma ferramenta indispensável para investidores, entusiastas e curiosos do mundo das criptomoedas, oferecendo uma visão abrangente do mercado de criptoativos."
+      },
+      "Accessibility-Guide": {
+        "textDescription": "O projeto 'Accessibility Guide' é um recurso dedicado a capacitar desenvolvedores a tornar a web mais acessível para pessoas com deficiência visual. Com foco em HTML e CSS, este projeto oferece orientações detalhadas e práticas para melhorar a acessibilidade da web. Os desenvolvedores podem encontrar guias, exemplos de código e informações sobre testes de acessibilidade. O objetivo é criar uma comunidade que colabore para uma web mais inclusiva e acessível para todos."
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "text": "Estou sempre à disposição para novos desafios e colaborações. Se você está procurando alguém para se juntar à sua equipe, contribuir para um projeto interessante ou simplesmente deseja trocar ideias, fique à vontade para entrar em contato. Tenho paixão pelo que faço e estou comprometido em oferecer resultados excepcionais. Vamos trabalhar juntos para transformar suas ideias em realidade. Estou ansioso para conversar e encontrar maneiras de criar algo incrível juntos!"
+    },
+    "Projects": {
+      "Web-NoticesDescription": "",
+      "Crypto-WorldDescription": "",
+      "To-do-List": ""
+    },
+    "skills": {
+      "card" : "Passe o mouse nos ícones para ver mais informações.",
+      "html" : "HTML (HyperText Markup Language) é uma linguagem de marcação usada para criar páginas da web. Ele define a estrutura e os elementos de uma página, como cabeçalhos, parágrafos e links, por meio de tags específicas. Os navegadores interpretam o HTML para exibir conteúdo na web.",
+      "css" : "CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada na web para controlar a aparência e o layout dos elementos em uma página. Com o CSS, você pode definir cores, fontes, etc. Permitindo que os desenvolvedores tornem suas páginas atraentes e bem organizadas. É uma parte essencial do desenvolvimento web moderno.",
+      "javascript" : "JavaScript é uma linguagem de programação amplamente usada na web para adicionar interatividade e dinamismo às páginas da web. Com JavaScript, os desenvolvedores podem criar funcionalidades como formulários interativos, animações, atualizações em tempo real e muito mais. É uma linguagem versátil e essencial para o desenvolvimento web moderno.",
+      "react" : "React é uma biblioteca JavaScript amplamente adotada para a criação de interfaces de usuário interativas e dinâmicas. Ela permite que os desenvolvedores construam componentes reutilizáveis que compõem a interface do usuário. React é conhecido por sua eficiência e capacidade de atualizar apenas partes específicas da página, tornando as aplicações mais rápidas e responsivas.",
+      "typescript" : "TypeScript: Uma extensão do JavaScript que traz segurança e organização ao desenvolvimento de aplicativos web e móveis. Com a adição de tipos estáticos, o TypeScript ajuda a prevenir erros e melhora a manutenibilidade do código, sendo uma escolha popular entre os desenvolvedores.",
+      "next" : "Next.js é um framework React que simplifica o desenvolvimento de aplicativos web. Ele oferece recursos como renderização no servidor e geração de sites estáticos, tornando a criação de aplicativos modernos mais eficiente. Com Next.js, você obtém um roteamento simples e ótimo desempenho, tornando-o uma escolha popular para projetos web.",
+      "tailwind" : "Tailwind CSS é uma estrutura de design altamente configurável que simplifica o desenvolvimento frontend, permitindo a criação de interfaces de usuário elegantes com classes HTML diretamente em seu código, sem a necessidade de escrever CSS personalizado.",
+      "sass" : "Sass (Syntactically Awesome Style Sheets) é uma extensão do CSS que adiciona funcionalidades poderosas, como variáveis, aninhamento e mixins, facilitando a escrita e manutenção de estilos em projetos web. É amplamente utilizado para criar folhas de estilo mais eficientes e organizadas.",
+      "styled-components" : "Styled-components: Uma biblioteca popular de estilo para React que permite que os desenvolvedores criem componentes com estilos CSS incorporados diretamente em seus arquivos JavaScript ou TypeScript, proporcionando uma experiência de desenvolvimento mais fácil e manutenível.",
+      "node" : "Node.js é um ambiente de execução JavaScript de código aberto que permite aos desenvolvedores criar aplicativos de rede escaláveis e de alto desempenho, comumente usados para construir servidores web e APIs robustas.",
+      "firebase" : "Firebase é uma plataforma de desenvolvimento de aplicativos móveis e da web que oferece uma ampla variedade de serviços em nuvem, incluindo autenticação de usuário, banco de dados em tempo real e hospedagem web, tornando mais fácil para os desenvolvedores construir e escalar aplicativos com rapidez.",
+      "git" : "O Git é um sistema de controle de versão amplamente utilizado que permite aos desenvolvedores rastrear e gerenciar alterações em seu código-fonte de forma eficiente, facilitando a colaboração e o controle de projetos de software."
+    },
+    "personal" : {
+      "title" : "Sobre mim",
+      "text" : "Sou um desenvolvedor front-end dedicado, com um forte foco em React e na criação de aplicações web de alta qualidade. Tenho uma paixão por resolver problemas complexos e uma atenção meticulosa aos detalhes, especialmente quando se trata de aprimorar a experiência do usuário ( UI/UX) e otimização para SEO. Minha jornada no mundo da web começou quando eu era criança, alimentada por uma curiosidade insaciável e um desejo constante de aprender. Essa paixão me levou a mergulhar de cabeça no desenvolvimento front-end, e desde então tenho trabalhado arduamente para me aprimorar a cada dia. Além de minhas habilidades técnicas, sou um colaborador liberado em equipe, sempre pronto para colaborar e compartilhar conhecimento. Acredito que o trabalho em equipe é essencial para alcançar resultados exclusivos. Estou empenhado em continuar minha jornada de aprendizado constante e estou ansioso para contribuir para projetos que enriqueçam a vida das pessoas por meio da tecnologia."
+    },
+    "errorPage" : {
+      "title" : "Página não encontrada",
+      "text" : "Desculpe, a página que você está procurando não foi encontrada. Isso pode ocorrer devido a um URL incorreto, uma página removida ou um problema temporário no servidor. Verifique o URL e tente novamente."
     }
   }
 }

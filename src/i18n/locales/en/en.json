@@ -4,10 +4,52 @@
       "contact": "Contatc",
       "habilities": "habilities",
       "projects": "Projects",
-      "whoAmI": "Who Am I"
+      "whoAmI": "About me"
     },
     "footer": {
       "copyright": "© {{year}} Felipe Santos"
+    },
+    "projects": {
+      "button" : "See More",
+      "Web-Notices": {
+        "textDescription": "'Web-Notices' app is a platform that provides daily news from around the world. Developed using React, TypeScript and styled with Tailwind CSS, the app provides users with quick and easy access to the latest global news and events. With an intuitive and responsive interface, readers can explore a variety of topics and stay up to date with the latest information in real time."
+      },
+      "To-do-List": {
+        "textDescription": "The 'To-Do List' project is a web application that simplifies the organization of people's daily tasks. Developed with technologies such as React and Styled Components, this application offers an intuitive and user-friendly interface to create, manage and track your daily tasks. The 'To-Do List' is a versatile tool to keep you productive and organized. Plus, its elegant and responsive appearance makes for a pleasant user experience on any device."
+      },
+      "Crypto-World": {
+        "textDescription": "Crypto-World' is a web platform that uses React, TypeScript and Tailwind CSS technologies, which provides detailed data about cryptocurrencies in real time. With it, users can monitor the current price, changes in the last 24 hours, and other crucial information for a wide range of digital currencies. This application is an indispensable tool for investors, enthusiasts and those curious about the world of cryptocurrencies, offering a comprehensive view of the cryptoactive market."
+      },
+      "Accessibility-Guide": {
+        "textDescription": "The 'Accessibility Guide' project is a resource dedicated to empowering developers to make the web more accessible for people with visual impairments. Focusing on HTML and CSS, this project offers detailed, practical guidance for improving web accessibility. Developers can find guides, code samples, and information about accessibility testing. The objective is to create a community that collaborates towards a more inclusive and accessible web for everyone."
+      }
+    },
+    "contact": {
+      "title" : "Contact",
+      "text": "I'm always available for new challenges and collaborations. If you are looking for someone to join your team, contribute to an interesting project or simply want to exchange ideas, feel free to get in touch. I have passion for what I do and am committed to delivering exceptional results. Let's work together to turn your ideas into reality. I look forward to chatting and finding ways to create something amazing together!"
+    },
+    "skills": {
+      "card" : "Hover over the icons to see more information.",
+      "html" : "HTML (HyperText Markup Language) is a markup language used to create web pages. It defines the structure and elements of a page, such as headings, paragraphs and links, through specific tags. Browsers interpret HTML to display content on the web.",
+      "css" : "CSS (Cascading Style Sheets) is a style language used on the web to control the appearance and layout of elements on a page. With CSS, you can define colors, fonts, margins, and more, allowing developers to make their pages attractive and well-organized. It is an essential part of modern web development.",
+      "javascript" : "JavaScript is a programming language widely used on the web to add interactivity and dynamism to web pages. With JavaScript, developers can create features like interactive forms, animations, real-time updates, and more. It is a versatile and essential language for modern web development.",
+      "react" : "React is a widely adopted JavaScript library for creating interactive and dynamic user interfaces. Developed by Facebook, it allows developers to build reusable components that make up the user interface. React is known for its efficiency and ability to update only specific parts of the page, making applications faster and more responsive. It's a popular choice for modern front-end development.",
+      "typescript" : "TypeScript: A JavaScript extension that brings security and organization to the development of web and mobile applications. With the addition of static types, TypeScript helps prevent errors and improves code maintainability, making it a popular choice among developers.",
+      "next" : "Next.js is a React framework that simplifies web application development. It offers features like server-side rendering and static website generation, making building modern apps more efficient. With Next.js, you get simple routing and great performance, making it a popular choice for web projects.",
+      "tailwind" : "Tailwind CSS is a highly configurable design framework that simplifies frontend development by allowing you to create elegant user interfaces with HTML classes directly in your code, without the need to write custom CSS.",
+      "sass" : "Sass (Syntactically Awesome Style Sheets) is a CSS extension that adds powerful features such as variables, nesting and mixins, making it easier to write and maintain styles in web projects. It is widely used to create more efficient and organized stylesheets.",
+      "styled-components" : "Styled-components: A popular styling library for React that allows developers to create components with CSS styles embedded directly in their JavaScript or TypeScript files, providing an easier and more maintainable development experience.",
+      "node" : "Node.js is an open-source JavaScript runtime environment that allows developers to create scalable, high-performance network applications commonly used to build robust web servers and APIs.",
+      "firebase" : "Firebase is a web and mobile app development platform that offers a wide range of cloud services, including user authentication, real-time database, and web hosting, making it easy for developers to build and scale apps quickly.",
+      "git" : "Git is a widely used version control system that allows developers to track and manage changes to their source code efficiently, facilitating collaboration and control of software projects."
+    },
+    "personal" : {
+      "title" : "About me",
+      "text" : "I'm a dedicated front-end developer with a strong focus on React and creating high-quality web applications. I have a passion for solving complex problems and a meticulous attention to detail, especially when it comes to enhancing the user experience ( UI/UX) and optimization for SEO. My journey into the world of the web began when I was a child, fueled by an insatiable curiosity and a constant desire to learn. This passion led me to dive head first into front-end development, and since then I have been working hard to improve myself every day. In addition to my technical skills, I am a team player, always ready to collaborate and share knowledge. I believe that teamwork is essential to achieve exclusive results. I am committed to continuing my journey of constant learning and look forward to contributing to projects that enrich people's lives through technology."
+    },
+    "errorPage" : {
+     "title" : "Page Not Found",
+      "text" : "Sorry, the page you're looking for could not be found. This might be due to an incorrect URL, a removed page, or a temporary server issue. Please check the URL and try again."
     }
   }
 }
