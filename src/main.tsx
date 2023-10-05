@@ -11,6 +11,7 @@ import { ErrorPage } from "./routes/errorPage.tsx";
 import { Skills } from "./routes/skills.tsx";
 import { Projects } from "./routes/projects.tsx";
 import { Contact } from "./routes/contact.tsx";
+import { Personal } from "./routes/personal.tsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/personal",
+        element: <Personal />,
       },
     ],
   },
