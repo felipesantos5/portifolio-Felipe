@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 .icon-container {
   display: inline-block;
   position: relative;
@@ -28,4 +32,8 @@
 
 .icon.dark {
   opacity: 0;
+}
+
+.darkMode-effect {
+  transition: background-color 0.5s ease;
 }
