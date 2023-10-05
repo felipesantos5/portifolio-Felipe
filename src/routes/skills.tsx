@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { UseDarkMode } from "../contexts/DarkModeContext";
-import Lottie from "lottie-react";
-import loadingAnimationWhite from "../assets/loadingAnimationWhite.json";
-import loadingAnimationBlack from "../assets/loadingAnimationBlack.json";
 
 interface IconTextPair {
   id: string;
@@ -16,8 +12,6 @@ interface IconTextPair {
 export const Skills = () => {
   const [hoveredIcon, setHoveredIcon] = useState<string | null>(null);
   const [lastHoveredIcon, setLastHoveredIcon] = useState<string | null>(null);
-
-  const { isDarkMode } = UseDarkMode();
 
   const { t } = useTranslation();
 
