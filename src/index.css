@@ -35,5 +35,5 @@ html {
 }
 
 .darkMode-effect {
-  transition: background-color 0.5s ease;
+  transition: background-color 1s ease;
 }
