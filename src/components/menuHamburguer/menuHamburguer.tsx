@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { HiMenu } from "react-icons/hi";
+import { HiMenu, HiOutlineX } from "react-icons/hi";
 import { Nav } from "../navigation/nav";
 
 export const MenuHamburguer = () => {
@@ -26,6 +26,11 @@ export const MenuHamburguer = () => {
           transition={{ duration: 0.3 }}
           className="font-semibold text-xl text-black dark:text-white p-4 w-full h-screen flex flex-col gap-6 justify-center items-center fixed top-0 left-0 bg-gray-200 dark:bg-zinc-900 z-10"
         >
+          <div className="fixed top-10 right-8 cursor-pointer text-white text-2xl">
+            <div className=" rounded-full w-10 h-10 flex items-center justify-center">
+              <HiOutlineX size="1.7rem" onClick={menuHamburguerOpen} />
+            </div>
+          </div>
           <Nav func={closeHamburguer} />
         </motion.div>
       )}
