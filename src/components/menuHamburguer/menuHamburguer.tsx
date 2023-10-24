@@ -28,7 +28,7 @@ export const MenuHamburguer = () => {
         >
           <div className="fixed top-10 right-7 cursor-pointer text-white text-2xl">
             <div className=" rounded-full w-10 h-10 flex items-center justify-center">
-              <HiOutlineX size="1.8rem" onClick={menuHamburguerOpen} />
+              <HiOutlineX size="1.8rem" onClick={menuHamburguerOpen} className="text-black dark:text-white" />
             </div>
           </div>
           <Nav func={closeHamburguer} />
