@@ -71,7 +71,7 @@ export const Skills = () => {
   return (
     <main className="bg-gray-200 dark:bg-zinc-900 darkMode-effect flex-1 flex items-center justify-center">
       <section className="flex justify-between items-center gap-8 md:flex-col m-auto max-w-5xl text-white px-6">
-        <motion.div className="flex justify-start gap-6 flex-wrap w-2/4 md:w-full md:justify-center">
+        <motion.div className="flex justify-start gap-6 flex-wrap w-2/4  md:w-full md:justify-center sm:mt-6">
           {loading ? (
             <div className="m-auto">
               <Lottie className="w-52" animationData={isDarkMode ? loadingAnimationWhite : loadingAnimationBlack} />
@@ -82,7 +82,7 @@ export const Skills = () => {
                 <motion.img
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
-                  className="w-20"
+                  className="w-20 sm:w-16"
                   src={`https://skillicons.dev/icons?i=${pair.icon}`}
                   alt={`icon of ${pair.icon}`}
                   onMouseEnter={() => handleMouseEnter(pair.icon)}
@@ -96,12 +96,12 @@ export const Skills = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1 }}
-          className={`bg-black p-4 text-lg w-1/2 h-96 rounded-xl flex justify-center md:w-full  ${!hoveredIcon ? "md:h-44" : "md:h-full"} md:mb-6`}
+          className={`bg-black p-4 w-1/2 h-96 rounded-xl flex justify-center md:w-full  ${!hoveredIcon ? "md:h-44" : "md:h-full"} md:mb-6`}
         >
           {hoveredIcon ? (
             <div>
               <h2 className="text-xl font-semibold mb-2">{iconTextPairs.find((pair) => pair.text === hoveredIcon)?.title}</h2>
-              <p className="">{hoveredIcon}</p>
+              <p className="text-lg text-justify sm:text-base">{hoveredIcon}</p>
             </div>
           ) : (
             <div className="flex items-center justify-center text-center">
