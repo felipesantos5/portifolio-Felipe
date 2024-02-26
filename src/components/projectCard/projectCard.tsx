@@ -52,15 +52,13 @@ export const ProjectCard = (props: ProjectCardProps) => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
         transition={{ ease: "easeOut", duration: 0.5 }}
-        className="p-4 bg-black rounded-lg flex flex-col justify-between cursor-pointer w-52 h-80 text-white"
+        className="p-4 bg-black rounded-lg flex flex-col justify-between cursor-pointer w-64 h-80 text-white"
         onClick={toggleModal}
       >
         <h2 className="text-center font-semibold text-2xl mb-6 h-10">{props.title}</h2>
         <img src={props.imgIcon} alt="" className="w-28 m-auto" />
-        <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="bg-white text-black p-2 rounded-lg mt-6 font-semibold">
+        <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} transition={{ ease: "easeOut", duration: 0.3 }} className="bg-white text-black p-2 rounded-lg mt-6 font-semibold">
           {t("projects.button")}
         </motion.button>
       </motion.div>
@@ -84,7 +82,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
               <img src={props.printProject} alt="" className="w-full" />
               <p className="text-justify">{props.textDescription}</p>
 
-              <div className="flex justify-center gap-4 text-lg">
+              <div className="flex justify-center gap-8 text-lg">
                 <a href={props.linkProject} target="_blank">
                   <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-lg bg-black text-white flex justify-center items-center gap-2 w-40 sm:w-full">
                     Deploy <BsFillRocketTakeoffFill size="1.3rem" />
