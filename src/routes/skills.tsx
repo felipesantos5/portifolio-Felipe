@@ -96,7 +96,7 @@ export const Skills = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 1 }}
-          className={`bg-black p-4 w-1/2 h-96 rounded-xl flex justify-center md:w-full  ${!hoveredIcon ? "md:h-44" : "md:h-full"} md:mb-6`}
+          className={`bg-black p-10 w-1/2 h-96 rounded-xl flex justify-center md:w-full  ${!hoveredIcon ? "md:h-44" : "md:h-full"} md:mb-6`}
         >
           {hoveredIcon ? (
             <div>
