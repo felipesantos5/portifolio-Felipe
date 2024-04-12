@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { ProjectCard } from "../components/projectCard/projectCard";
-import printCrypto from "../assets/printCrypto.svg";
-import printWebNotices from "../assets/printWebNotices.svg";
-import printAccessibilityGuide from "../assets/printAccessibilityGuide.svg";
-import printToDoList from "../assets/printToDoList.svg";
+import printCrypto from "../assets/cryptoworld.webp";
+import printWebNotices from "../assets/webnotice.webp";
+import printAccessibilityGuide from "../assets/assesibilidade.webp";
+import printToDoList from "../assets/todolist.webp";
 
 export const Projects = () => {
   const { t } = useTranslation();
@@ -15,7 +15,6 @@ export const Projects = () => {
           <ProjectCard
             title="Web-Notices"
             textDescription={t("projects.Web-Notices.textDescription")}
-            imgIcon={printWebNotices}
             linkProject={"https://web-notices.vercel.app/"}
             printProject={printWebNotices}
             githubProject={"https://github.com/felipesantos5/Web-Notices"}
@@ -23,7 +22,6 @@ export const Projects = () => {
           <ProjectCard
             title="Crypto-World"
             textDescription={t("projects.Crypto-World.textDescription")}
-            imgIcon={printCrypto}
             linkProject={"https://crypto-world-phi.vercel.app/"}
             printProject={printCrypto}
             githubProject={"https://github.com/felipesantos5/Crypto-World"}
@@ -31,7 +29,6 @@ export const Projects = () => {
           <ProjectCard
             title="To-do-List"
             textDescription={t("projects.To-do-List.textDescription")}
-            imgIcon={printToDoList}
             linkProject={"https://to-do-list-felipesantos5.vercel.app/"}
             printProject={printToDoList}
             githubProject={"https://github.com/felipesantos5/to-do-list"}
@@ -39,7 +36,6 @@ export const Projects = () => {
           <ProjectCard
             title="Accessibility-Guide"
             textDescription={t("projects.Accessibility-Guide.textDescription")}
-            imgIcon={printAccessibilityGuide}
             linkProject={"https://felipesantos5.github.io/accessibility-guide/"}
             printProject={printAccessibilityGuide}
             githubProject={"https://github.com/felipesantos5/accessibility-guide"}

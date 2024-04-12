@@ -7,7 +7,6 @@ import { BsFillRocketTakeoffFill, BsGithub } from "react-icons/bs";
 interface ProjectCardProps {
   title: string;
   textDescription: string;
-  imgIcon: string;
   linkProject: string;
   printProject: string;
   githubProject: string;
@@ -57,7 +56,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
         onClick={toggleModal}
       >
         <h2 className="text-center font-semibold text-2xl mb-6 h-10">{props.title}</h2>
-        <img src={props.imgIcon} alt="" className="w-28 m-auto" />
+
         <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} transition={{ ease: "easeOut", duration: 0.3 }} className="bg-white text-black p-2 rounded-lg mt-6 font-semibold">
           {t("projects.button")}
         </motion.button>
